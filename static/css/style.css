@@ -1,4 +1,36 @@
 body {
   font-family: 'Lobster', cursive;
   }
-  
+/*=============banner section==================== */
+#banner {
+  background-image: url("https://i.pinimg.com/originals/e9/13/19/e91319552effdd60830d66c64963084d.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 500px;  
+}
+#banner .row{
+  height: 500px;
+  position: absolute;
+}
+#banner .col-md-8{
+  margin-left: 50%;
+}
+#banner .col-md-8 .logobox{
+  background-color: black;
+  height: 400px;
+  width: 700px;
+  opacity: 70%;
+  padding: 60px 174px;
+  position: relative;    
+}
+#banner .col-md-8 p{
+  color: #E5E5E5;
+  font-size: 24px;
+  font-family: 'Satisfy', cursive;
+  margin-top: 0px;
+}
+#banner .col-md-8 span{
+  color: #CF792C;
+  font-style: italic;
+}
