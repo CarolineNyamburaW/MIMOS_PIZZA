@@ -144,3 +144,12 @@ $("button.addPizza").click(function(){
   
 
 });
+ /*function for the checkout button*/
+ $("button#checkout").click(function(){ 
+  $("button#checkout").hide();
+  $("button.addPizza").hide();
+  $("button.deliver").slideDown(1000);
+  $("#addedprice").slideDown(1000);
+  console.log("Your total bills is sh. "+checkoutTotal);
+  $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+});
