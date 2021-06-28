@@ -261,3 +261,30 @@ body {
   font-family: 'Lobster', cursive;
   color:#CF792C  ;
 }
+ 
+/*=============footer section==================== */
+
+#footer{
+  background-color: #000;
+height: 250px;
+}
+#footer i {    font-size: 30px;
+  
+  margin-left: 8%;
+  color: white;
+  }
+#footer  .col-md-12 p{
+    color: #ffffff;
+    font-style: italic;
+    margin-left: 48%;
+    margin-top: 6%;
+    font-size: 14px;
+  }
+  
+#footer .col-md-12 span {
+    color: #CF792C;
+    font-style: italic;
+    margin-top: 20%;
+    font-size: 20px;
+    margin-left: 0%;
+  }
