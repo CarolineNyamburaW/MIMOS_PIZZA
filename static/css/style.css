@@ -101,5 +101,137 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
+    
+  /*=============abboutus section==================== */
   
+  .order{
+    background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  #Order-now h2{
+    color:#CF792C ;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+  }
+  #Order-now p{
+    color: #E5E5E5;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    margin-top: 0px;
+  }
+  #information p{
+    color:#CF792C  ;
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-left: 5%;
+  }
+  #information span{
+    color: #E5E5E5 ;
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-left: 30%;
+    text-align: center;
+  }
+  
+  form span{
+    color: #E5E5E5 ;
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-left: 12%;
+    text-align: center;
+  }
+  .order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+  }
+  .btn{
+    border-radius: 10px;
+    border: #fff solid 2px;
+    background-color: #E5E5E5 ;
+    margin-left: 140px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color:#CF792C  ;
+    margin-bottom: 70px;
+  }
+  .choise{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  }
+  .deliver{
+    display: none;
+  }
+  .pickup{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    /*font-size: 20px;
+    color: white;*/
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color:#E5E5E5  ;
+  }
+  label{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color:#E5E5E5  ;
+  }
+  .choise h2{
+    color:orange;
+    text-align: left;
+  }
+  #your-orders{
+    color: #E5E5E5;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+  }
+  #addedprice{
+    display: none;
+  }
+  #finallmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color:#CF792C  ;
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+  }
+  .order-overlay{
+    background-color: rgba(0, 0, 0,0.6);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .order h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    color:#CF792C  ;
+  }
   
